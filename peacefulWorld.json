@@ -1,0 +1,192 @@
+{
+  "Name": "爱丽丝梦游仙境",
+  "Description": "",
+  "MaxActiveCritters": 40,
+  "MaxActiveSwarmers": 0,
+  "MaxActiveEnemies": 0,
+  "ResupplyCost": 10,
+  "StartingNitra": 0,
+  "ExtraLargeEnemyDamageResistance": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "EnemyDamageResistance": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "SmallEnemyDamageResistance": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "EnemyDamageModifier": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "EnemyCountModifier": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "EncounterDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 0,
+    "max": 0
+  },
+  "MinPoolSize": 0,
+  "MaxActiveElites": 0,
+  "EnvironmentalDamageModifier": 0.1,
+  "PointExtractionScalar": 0.1,
+  "HazardBonus": 1.33,
+  "FriendlyFireModifier": 0.1,
+  "WaveStartDelayScale": 1,
+  "SpeedModifier": 0.5,
+  "AttackCooldownModifier": 0.5,
+  "ProjectileSpeedModifier": 0.5,
+  "HealthRegenerationMax": 0.5,
+  "ReviveHealthRatio": 0.5,
+  "EliteCooldown": 0,
+  "EnemyDescriptors": {},
+  "EnemyPool": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "CommonEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "SpecialEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "DisruptiveEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "StationaryEnemies": {
+    "clear": false,
+    "add": [],
+    "remove": []
+  },
+  "SeasonalEvents": [
+    "SE_ProspectorDrone",
+    "SE_ProspectorDataDeposit",
+    "SE_RivalBomb"
+  ],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.5,
+    "BigHitDamageReductionThreshold": 6,
+    "NeutralDamageModifier": 0.1
+  }
+}
